@@ -16,13 +16,13 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     q_y = state[1];
 
     q_theta = state[2];
-    SDL_SetRenderDrawColor(gRenderer.get(), 0xFF, 0x00, 0x00, 0xFF);
-    boxColor(gRenderer.get(), q_x-70, q_y-5, q_x+70, q_y+5, 0xFF0000FF);
-    boxColor(gRenderer.get(), q_x-62, q_y-5, q_x-60, q_y-30, 0xFF0000FF);
-    boxColor(gRenderer.get(), q_x+60, q_y-5, q_x+62, q_y-30, 0xFF0000FF);
-    filledEllipseColor(gRenderer.get(),q_x-81, q_y-30, 20, 5, 0xFF0000FF);
-    filledEllipseColor(gRenderer.get(),q_x-41, q_y-30, 20, 5, 0xFF0000FF);
-    filledEllipseColor(gRenderer.get(),q_x+41, q_y-30, 20, 5, 0xFF0000FF);
-    filledEllipseColor(gRenderer.get(),q_x+81, q_y-30, 20, 5, 0xFF0000FF);
+    // SDL_SetRenderDrawColor(gRenderer.get(), 0xFF, 0x00, 0x00, 0xFF);
+    boxColor(gRenderer.get(), q_x-70, q_y-5, q_x+70, q_y+5, 0xFF000000);
+    boxColor(gRenderer.get(), q_x-62, q_y-6, q_x-60, q_y-30, 0xFF0000FF);
+    boxColor(gRenderer.get(), q_x+60, q_y-6, q_x+62, q_y-30, 0xFF0000FF);
+    filledEllipseColor(gRenderer.get(),q_x-81, q_y-30, 20, 5, 0xFFFF00FF);
+    filledEllipseColor(gRenderer.get(),q_x-41, q_y-30, 20, 5, 0xFFFF00FF);
+    filledEllipseColor(gRenderer.get(),q_x+41, q_y-30, 20, 5, 0xFFFF00FF);
+    filledEllipseColor(gRenderer.get(),q_x+81, q_y-30, 20, 5, 0xFFFF00FF);
     
 }
