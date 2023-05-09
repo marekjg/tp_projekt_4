@@ -17,7 +17,7 @@ int main() {
 
     /* 2. Plot using Eigen elementwise operations */
     int n_points = 1000;
-    Eigen::VectorXf x = Eigen::VectorXf::LinSpaced(n_points, 0, 10 * pi);
+    Eigen::VectorXf x = Eigen::VectorXf::LinSpaced(n_points, 0, 5 * pi);
     Eigen::VectorXf sx = x.array().sin();
     Eigen::VectorXf cx = x.array().cos();
 
