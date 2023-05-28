@@ -20,7 +20,9 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     int x, y;
     int middle_x, middle_y;
     int quadrotor_size[2] = {160,15};
-    int connector_size[2] = {4,22};
+    int connector_size[2] = {4,25};
+    float connector_distance[2] = {quadrotor_size[0]*0.9*cos(q_theta),quadrotor_size[0]*0.9*sin(q_theta)};
+    float connector_length[2] = {-connector_size[1]*sin(q_theta), connector_size[1]*cos(q_theta)};
 
     SDL_GetRendererOutputSize(gRenderer.get(), &scrWidth, &scrHeight);
     x = scrWidth/2;
@@ -30,10 +32,19 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
 
 
     // thickLineColor(gRenderer.get(),middle_x-(90/2)*cos(q_theta),middle_y-(90/2)*sin(q_theta), middle_x+(90/2)*cos(q_theta), middle_y+(90/2)*sin(q_theta), 10, 0xFF000000);
-     
-     
-    thickLineColor(gRenderer.get(),middle_x-quadrotor_size[0]/2*cos(q_theta), middle_y-quadrotor_size[0]/2*sin(q_theta), middle_x+quadrotor_size[0]/2*cos(q_theta), middle_y+quadrotor_size[0]/2*sin(q_theta), quadrotor_size[1], 0xFF000000);
+    float quadrotor_left[2] = {middle_x-quadrotor_size[0]/2*cos(q_theta),middle_y-quadrotor_size[0]/2*sin(q_theta)};  
+    float quadrotor_right[2] = {middle_x+quadrotor_size[0]/2*cos(q_theta),middle_y+quadrotor_size[0]/2*sin(q_theta)};
     
+    float connector_left_1[2] = {quadrotor_right[0]-connector_distance[0],quadrotor_right[1]-connector_distance[1]};
+    float connector_right_1[2] = {quadrotor_right[0]-connector_distance[0]-connector_length[0],quadrotor_right[1]-connector_distance[1]-connector_length[1]};
+    float connector_left_2[2] = {quadrotor_left[0]+connector_distance[0],quadrotor_left[1]+connector_distance[1]};
+    float connector_right_2[2] = {quadrotor_left[0]+connector_distance[0]-connector_length[0],quadrotor_left[1]+connector_distance[1]-connector_length[1]};
+
+    thickLineColor(gRenderer.get(),quadrotor_left[0], quadrotor_left[1], quadrotor_right[0], quadrotor_right[1], quadrotor_size[1], 0xFF000000);
+    thickLineColor(gRenderer.get(),connector_left_1[0], connector_left_1[1], connector_right_1[0], connector_right_1[1],connector_size[0], 0xFFFF00FF);
+    thickLineColor(gRenderer.get(),connector_left_2[0], connector_left_2[1], connector_right_2[0], connector_right_2[1],connector_size[0], 0xFFFF00FF);
+
+
     
     // thickLineColor(gRenderer.get(),(q_x-70)-(90/2)*cos(q_theta), (q_y-5)-(90/2)*sin(q_theta), (q_x+50)+(90/2)*cos(q_theta), (q_y-5)+(90/2)*sin(q_theta), 10, 0xFF000000);
 
