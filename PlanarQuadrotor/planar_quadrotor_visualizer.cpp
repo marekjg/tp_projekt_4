@@ -23,7 +23,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     
     int quadrotor_color = 0xFF000000;
     int connector_color = 0xFFFF00FF;
-    unsigned int propeller_color[2] = {0xFFFF0000,0xFFFFFF00};
+    static unsigned int propeller_color[2] = {0xFFFF0000,0xFFFFFF00};
     
     float quadrotor_left[2] = {q_x-quadrotor_size[0]/2*cos(q_theta),q_y-quadrotor_size[0]/2*sin(q_theta)};  
     float quadrotor_right[2] = {q_x+quadrotor_size[0]/2*cos(q_theta),q_y+quadrotor_size[0]/2*sin(q_theta)};
@@ -35,18 +35,16 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     float connector_left_2[2] = {quadrotor_right[0]-connector_distance[0]-connector_length[0],quadrotor_right[1]-connector_distance[1]-connector_length[1]};
     float connector_right_1[2] = {quadrotor_left[0]+connector_distance[0],quadrotor_left[1]+connector_distance[1]};
     float connector_right_2[2] = {quadrotor_left[0]+connector_distance[0]-connector_length[0],quadrotor_left[1]+connector_distance[1]-connector_length[1]};
-
-    bool propeller_in_motion = false;
-    int animation_duration = 0;
-
-    if(SDL_GetTicks() - animation_duration>100){
+    
+    static int animation_duration = 0;
+    int t = SDL_GetTicks();
+    if(t - animation_duration > 100 ){
         propeller_in_motion = !propeller_in_motion;
         animation_duration = SDL_GetTicks();
-        if(propeller_in_motion ==  true){
-            unsigned int z = propeller_color[0];
-            propeller_color[0] = propeller_color[1];
-            propeller_color[1] = z;
-        }
+        unsigned int z = propeller_color[0];
+        propeller_color[0] = propeller_color[1];
+        propeller_color[1] = z;
+
     }
 
     float propeller_left_1[2] = {connector_left_2[0]+(propeller_size[0]), connector_left_2[1]};
