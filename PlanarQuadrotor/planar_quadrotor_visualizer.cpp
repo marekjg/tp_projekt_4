@@ -37,6 +37,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     float connector_right_2[2] = {quadrotor_left[0]+connector_distance[0]-connector_length[0],quadrotor_left[1]+connector_distance[1]-connector_length[1]};
     
     static int animation_duration = 0;
+    static bool propeller_in_motion = false;
     int t = SDL_GetTicks();
     if(t - animation_duration > 100 ){
         propeller_in_motion = !propeller_in_motion;
