@@ -27,7 +27,12 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     middle_y = y + q_y;
 
 
-    thickLineColor(gRenderer.get(),(middle_x-730)-((middle_x-730)/2)*cos(q_theta), (middle_y-350)-((middle_y-350)/2)*sin(q_theta), (middle_x-590)+((middle_x-590)/2)*cos(q_theta), (middle_y-350)+((middle_y-350)/2)*sin(q_theta), 10, 0xFF000000);
+    // thickLineColor(gRenderer.get(),middle_x-(90/2)*cos(q_theta),middle_y-(90/2)*sin(q_theta), middle_x+(90/2)*cos(q_theta), middle_y+(90/2)*sin(q_theta), 10, 0xFF000000);
+     
+     
+    thickLineColor(gRenderer.get(),(middle_x-730)-(90/2)*cos(q_theta), (middle_y-350)-(90/2)*sin(q_theta), (middle_x-590)+(90/2)*cos(q_theta), (middle_y-350)+(90/2)*sin(q_theta), 10, 0xFF000000);
+    
+    // thickLineColor(gRenderer.get(),(q_x-70)-(90/2)*cos(q_theta), (q_y-5)-(90/2)*sin(q_theta), (q_x+50)+(90/2)*cos(q_theta), (q_y-5)+(90/2)*sin(q_theta), 10, 0xFF000000);
 
 
     // SDL_SetRenderDrawColor(gRenderer.get(), 0x00, 0x00, 0x00, 0x00);
