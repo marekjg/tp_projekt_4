@@ -15,26 +15,18 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     q_x = state[0];
     q_y = state[1];
     q_theta = state[2];
-
-    int scrWidth, scrHeight;
-    int x, y;
-    int middle_x, middle_y;
+    /* coordinates transformed in simulate.cpp */
+    
     int quadrotor_size[2] = {160,15};
     int connector_size[2] = {4,25};
     int propeller_size[2] = {15,5};
+    
+    
+    float quadrotor_left[2] = {q_x-quadrotor_size[0]/2*cos(q_theta),q_y-quadrotor_size[0]/2*sin(q_theta)};  
+    float quadrotor_right[2] = {q_x+quadrotor_size[0]/2*cos(q_theta),q_y+quadrotor_size[0]/2*sin(q_theta)};
+
     float connector_distance[2] = {quadrotor_size[0]*0.9*cos(q_theta),quadrotor_size[0]*0.9*sin(q_theta)};
     float connector_length[2] = {-connector_size[1]*sin(q_theta), connector_size[1]*cos(q_theta)};
-
-    SDL_GetRendererOutputSize(gRenderer.get(), &scrWidth, &scrHeight);
-    x = scrWidth/2;
-    y = scrHeight/2;
-    middle_x = x + q_x - 650;
-    middle_y = y + q_y - 350;
-
-
-    // thickLineColor(gRenderer.get(),middle_x-(90/2)*cos(q_theta),middle_y-(90/2)*sin(q_theta), middle_x+(90/2)*cos(q_theta), middle_y+(90/2)*sin(q_theta), 10, 0xFF000000);
-    float quadrotor_left[2] = {middle_x-quadrotor_size[0]/2*cos(q_theta),middle_y-quadrotor_size[0]/2*sin(q_theta)};  
-    float quadrotor_right[2] = {middle_x+quadrotor_size[0]/2*cos(q_theta),middle_y+quadrotor_size[0]/2*sin(q_theta)};
     
     float connector_left_1[2] = {quadrotor_right[0]-connector_distance[0],quadrotor_right[1]-connector_distance[1]};
     float connector_left_2[2] = {quadrotor_right[0]-connector_distance[0]-connector_length[0],quadrotor_right[1]-connector_distance[1]-connector_length[1]};
@@ -64,7 +56,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
 
 
     // SDL_SetRenderDrawColor(gRenderer.get(), 0x00, 0x00, 0x00, 0x00);
-    // SDL_Rect base = {(middle_x-730)*cos(q_theta), (middle_y-350)*sin(q_theta), 140, 10};
+    // SDL_Rect base = {(q_x-730)*cos(q_theta), (q_y-350)*sin(q_theta), 140, 10};
     // SDL_RenderFillRect(gRenderer.get(), &base);
 
     // SDL_SetRenderDrawColor(gRenderer.get(), 0xFF, 0x00, 0x00, 0x00);
