@@ -37,22 +37,24 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     float quadrotor_right[2] = {middle_x+quadrotor_size[0]/2*cos(q_theta),middle_y+quadrotor_size[0]/2*sin(q_theta)};
     
     float connector_left_1[2] = {quadrotor_right[0]-connector_distance[0],quadrotor_right[1]-connector_distance[1]};
-    float connector_right_1[2] = {quadrotor_right[0]-connector_distance[0]-connector_length[0],quadrotor_right[1]-connector_distance[1]-connector_length[1]};
-    float connector_left_2[2] = {quadrotor_left[0]+connector_distance[0],quadrotor_left[1]+connector_distance[1]};
+    float connector_left_2[2] = {quadrotor_right[0]-connector_distance[0]-connector_length[0],quadrotor_right[1]-connector_distance[1]-connector_length[1]};
+    float connector_right_1[2] = {quadrotor_left[0]+connector_distance[0],quadrotor_left[1]+connector_distance[1]};
     float connector_right_2[2] = {quadrotor_left[0]+connector_distance[0]-connector_length[0],quadrotor_left[1]+connector_distance[1]-connector_length[1]};
 
-    float propeller_left[2] = {connector_right_1[0]+propeller_size[0], connector_right_1[1]};
-
-    float propeller_right[2] = {connector_right_2[0]+propeller_size[0], connector_right_2[1]};
+    float propeller_left_1[2] = {connector_left_2[0]+propeller_size[0], connector_left_2[1]};
+    float propeller_left_2[2] = {connector_left_2[0]-propeller_size[0], connector_left_2[1]};
+    float propeller_right_1[2] = {connector_right_2[0]+propeller_size[0], connector_right_2[1]};
+    float propeller_right_2[2] = {connector_right_2[0]-propeller_size[0], connector_right_2[1]};
 
     thickLineColor(gRenderer.get(),quadrotor_left[0], quadrotor_left[1], quadrotor_right[0], quadrotor_right[1], quadrotor_size[1], 0xFF000000);
     
-    thickLineColor(gRenderer.get(),connector_left_1[0], connector_left_1[1], connector_right_1[0], connector_right_1[1],connector_size[0], 0xFFFF00FF);
-    thickLineColor(gRenderer.get(),connector_left_2[0], connector_left_2[1], connector_right_2[0], connector_right_2[1],connector_size[0], 0xFFFF00FF);
+    thickLineColor(gRenderer.get(),connector_left_1[0], connector_left_1[1], connector_left_2[0], connector_left_2[1],connector_size[0], 0xFFFF00FF);
+    thickLineColor(gRenderer.get(),connector_right_1[0], connector_right_1[1], connector_right_2[0], connector_right_2[1],connector_size[0], 0xFFFF00FF);
 
-    filledEllipseColor(gRenderer.get(),propeller_left[0], propeller_left[1], propeller_size[0], propeller_size[1], 0xFFFF0000);
-    filledEllipseColor(gRenderer.get(),propeller_right[0], propeller_right[1], propeller_size[0], propeller_size[1], 0xFFFF0000);
-    
+    filledEllipseColor(gRenderer.get(),propeller_left_1[0], propeller_left_1[1], propeller_size[0], propeller_size[1], 0xFFFF0000);
+    filledEllipseColor(gRenderer.get(),propeller_right_1[0], propeller_right_1[1], propeller_size[0], propeller_size[1], 0xFFFF0000);
+    filledEllipseColor(gRenderer.get(),propeller_left_2[0], propeller_left_2[1], propeller_size[0], propeller_size[1], 0xFFFF0000);
+    filledEllipseColor(gRenderer.get(),propeller_right_2[0], propeller_right_2[1], propeller_size[0], propeller_size[1], 0xFFFF0000);
     
     // filledEllipseColor(gRenderer.get(),q_x-41, q_y-30, 20, 5, 0xFFFF00FF);
     // filledEllipseColor(gRenderer.get(),q_x+41, q_y-30, 20, 5, 0xFFFF00FF);
