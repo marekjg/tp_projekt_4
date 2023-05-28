@@ -1,14 +1,15 @@
 #include <iostream>
 #include <random>
-
+#include <matplot/matplot.h>
 #include "planar_quadrotor.h"
+
 
 PlanarQuadrotor::PlanarQuadrotor() {
     std::random_device r;
     std::default_random_engine generator(r());
     std::normal_distribution<float> distribution(0.0, 1.0);
     auto gaussian = [&] (int) {return distribution(generator);};
-
+    
     z = Eigen::VectorXf::NullaryExpr(6, gaussian);
 }
 
@@ -35,6 +36,8 @@ Eigen::Vector2f PlanarQuadrotor::GravityCompInput() {
 
     return Eigen::Vector2f::Constant(m * g / 2);
 }
+
+
 
 std::tuple<Eigen::MatrixXf, Eigen::MatrixXf> PlanarQuadrotor::Linearize() {
     /* Extract parameters */
@@ -100,11 +103,28 @@ void PlanarQuadrotor::DoCalcTimeDerivatives() {
     z_dot.block(3, 0, 3, 1) << x_dotdot, y_dotdot, theta_dotdot;
 }
 
+void PlanarQuadrotor::UpdateHistory(float dt){
+    int z_cols=z_history.cols();
+    // if(z_cols>=400){
+    //     //Avoiding aliasing (See here: https://eigen.tuxfamily.org/dox/group__TopicAliasing.html)
+    //     Eigen::Matrix4Xf t = z_history.block(0,z_history.rows(),1,z_cols);
+    //     z_history = t;
+    // }
+    Eigen::Vector3f temp = {z[0],z[1],z[2]};
+    z_history.conservativeResize(z_history.rows(), z_history.cols()+1);
+    z_history.col(z_history.cols()-1) = temp;
+}
 void PlanarQuadrotor::DoUpdateState(float dt) {
     /* Euler integration */
     z += dt * z_dot;
 }
-
+void PlanarQuadrotor::PlotHistory(){
+    Eigen::VectorXf x = z_history.row(0);
+    Eigen::VectorXf y = z_history.row(1);
+    Eigen::VectorXf theta = z_history.row(2);
+    matplot::plot3(x,y,theta);
+    matplot::show();
+}
 void PlanarQuadrotor::SetInput(Eigen::Vector2f input) {
     this->input = input;
 }
@@ -113,9 +133,10 @@ Eigen::VectorXf PlanarQuadrotor::Update(Eigen::Vector2f &input, float dt) {
     SetInput(input);
     DoCalcTimeDerivatives();
     DoUpdateState(dt);
-
+    UpdateHistory(dt);
     return z;
 }
+
 
 Eigen::VectorXf PlanarQuadrotor::Update(float dt) {
     return Update(input, dt);
