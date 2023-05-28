@@ -21,6 +21,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     int middle_x, middle_y;
     int quadrotor_size[2] = {160,15};
     int connector_size[2] = {4,25};
+    int propeller_size[2] = {15,5};
     float connector_distance[2] = {quadrotor_size[0]*0.9*cos(q_theta),quadrotor_size[0]*0.9*sin(q_theta)};
     float connector_length[2] = {-connector_size[1]*sin(q_theta), connector_size[1]*cos(q_theta)};
 
@@ -40,11 +41,22 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     float connector_left_2[2] = {quadrotor_left[0]+connector_distance[0],quadrotor_left[1]+connector_distance[1]};
     float connector_right_2[2] = {quadrotor_left[0]+connector_distance[0]-connector_length[0],quadrotor_left[1]+connector_distance[1]-connector_length[1]};
 
+    float propeller_left[2] = {connector_right_1[0]+propeller_size[0], connector_right_1[1]};
+
+    float propeller_right[2] = {connector_right_2[0]+propeller_size[0], connector_right_2[1]};
+
     thickLineColor(gRenderer.get(),quadrotor_left[0], quadrotor_left[1], quadrotor_right[0], quadrotor_right[1], quadrotor_size[1], 0xFF000000);
+    
     thickLineColor(gRenderer.get(),connector_left_1[0], connector_left_1[1], connector_right_1[0], connector_right_1[1],connector_size[0], 0xFFFF00FF);
     thickLineColor(gRenderer.get(),connector_left_2[0], connector_left_2[1], connector_right_2[0], connector_right_2[1],connector_size[0], 0xFFFF00FF);
 
-
+    filledEllipseColor(gRenderer.get(),propeller_left[0], propeller_left[1], propeller_size[0], propeller_size[1], 0xFFFF0000);
+    filledEllipseColor(gRenderer.get(),propeller_right[0], propeller_right[1], propeller_size[0], propeller_size[1], 0xFFFF0000);
+    
+    
+    // filledEllipseColor(gRenderer.get(),q_x-41, q_y-30, 20, 5, 0xFFFF00FF);
+    // filledEllipseColor(gRenderer.get(),q_x+41, q_y-30, 20, 5, 0xFFFF00FF);
+    // filledEllipseColor(gRenderer.get(),q_x+81, q_y-30, 20, 5, 0xFFFF00FF);
     
     // thickLineColor(gRenderer.get(),(q_x-70)-(90/2)*cos(q_theta), (q_y-5)-(90/2)*sin(q_theta), (q_x+50)+(90/2)*cos(q_theta), (q_y-5)+(90/2)*sin(q_theta), 10, 0xFF000000);
 
@@ -58,11 +70,6 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     // SDL_Rect connector_right = {q_x+60, q_y-27, 4, 22};
     // SDL_RenderFillRect(gRenderer.get(), &connector_left);
     // SDL_RenderFillRect(gRenderer.get(), &connector_right);
-
-    // filledEllipseColor(gRenderer.get(),q_x-81, q_y-30, 20, 5, 0xFFFF00FF);
-    // filledEllipseColor(gRenderer.get(),q_x-41, q_y-30, 20, 5, 0xFFFF00FF);
-    // filledEllipseColor(gRenderer.get(),q_x+41, q_y-30, 20, 5, 0xFFFF00FF);
-    // filledEllipseColor(gRenderer.get(),q_x+81, q_y-30, 20, 5, 0xFFFF00FF);
 
     // SDL_SetRenderDrawColor(gRenderer.get(), 0x00, 0x00, 0x00, 0x00);
     // SDL_ wing = {q_x-70, q_y-5, 140, 10};
