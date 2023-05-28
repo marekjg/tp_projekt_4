@@ -2,7 +2,7 @@
  * SDL window creation adapted from https://github.com/isJuhn/DoublePendulum
 */
 #include "simulate.h"
-
+#include "thread"
 Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     /* Calculate LQR gain matrix */
     Eigen::MatrixXf Eye = Eigen::MatrixXf::Identity(6, 6);
@@ -87,11 +87,11 @@ int main(int argc, char* args[])
                 {
                     quit = true;
                 }
-                else if (e.type == SDL_MOUSEMOTION)
-                {
-                    SDL_GetMouseState(&x, &y);
-                    //std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
-                }
+                // else if (e.type == SDL_MOUSEMOTION)
+                // {
+                //     SDL_GetMouseState(&x, &y);
+                //     //std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
+                // }
                 else if (e.type == SDL_MOUSEBUTTONDOWN)
                 {
                     SDL_GetMouseState(&x, &y);
@@ -99,7 +99,10 @@ int main(int argc, char* args[])
                     goal_state <<x ,y ,0 ,0 ,0 ,0;
                     quadrotor.SetGoal(goal_state);
                 }
-                
+                else if(e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_p){
+                    std::thread t(PlanarQuadrotor::PlotHistory,quadrotor);
+                    t.detach();
+                }
             }
 
             SDL_Delay((int) dt * 1000);
