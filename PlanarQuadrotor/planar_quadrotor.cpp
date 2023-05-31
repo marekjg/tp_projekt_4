@@ -3,6 +3,7 @@
 #include <matplot/matplot.h>
 #include "planar_quadrotor.h"
 
+const int LOG_SIZE = 10000;
 
 PlanarQuadrotor::PlanarQuadrotor() {
     std::random_device r;
@@ -103,15 +104,15 @@ void PlanarQuadrotor::DoCalcTimeDerivatives() {
     z_dot.block(3, 0, 3, 1) << x_dotdot, y_dotdot, theta_dotdot;
 }
 
-void PlanarQuadrotor::UpdateHistory(float dt){
+void PlanarQuadrotor::UpdateHistory(float time){
     int z_cols=z_history.cols();
-    // if(z_cols>=400){
-    //     //Avoiding aliasing (See here: https://eigen.tuxfamily.org/dox/group__TopicAliasing.html)
-    //     Eigen::Matrix4Xf t = z_history.block(0,z_history.rows(),1,z_cols);
-    //     z_history = t;
-    // }
-    Eigen::Vector3f temp = {z[0],z[1],z[2]};
-    z_history.conservativeResize(z_history.rows(), z_history.cols()+1);
+    if(z_cols==LOG_SIZE){
+        //Avoiding aliasing (See here: https://eigen.tuxfamily.org/dox/group__TopicAliasing.html)
+        z_history.block(0,0,4,z_cols-1) = z_history.rightCols(z_cols-1);
+        z_cols--;
+    }
+    Eigen::Vector4f temp = {z[0],z[1],z[2],time};
+    z_history.conservativeResize(z_history.rows(), z_cols+1);
     z_history.col(z_history.cols()-1) = temp;
 }
 void PlanarQuadrotor::DoUpdateState(float dt) {
@@ -122,22 +123,31 @@ void PlanarQuadrotor::PlotHistory(){
     Eigen::VectorXf x = z_history.row(0);
     Eigen::VectorXf y = z_history.row(1);
     Eigen::VectorXf theta = z_history.row(2);
-    matplot::plot3(x,y,theta);
+    Eigen::VectorXf time = z_history.row(3);
+    matplot::subplot(3,1,1);
+    matplot::title("x");
+    matplot::plot(time,x,"r");
+    matplot::subplot(3,1,2);
+    matplot::title("y");
+    matplot::plot(time,y,"g");
+    matplot::subplot(3,1,3);
+    matplot::title("theta");
+    matplot::plot(time,theta,"b");
     matplot::show();
 }
 void PlanarQuadrotor::SetInput(Eigen::Vector2f input) {
     this->input = input;
 }
 
-Eigen::VectorXf PlanarQuadrotor::Update(Eigen::Vector2f &input, float dt) {
+Eigen::VectorXf PlanarQuadrotor::Update(Eigen::Vector2f &input, float dt,float time) {
     SetInput(input);
     DoCalcTimeDerivatives();
     DoUpdateState(dt);
-    UpdateHistory(dt);
+    UpdateHistory(time);
     return z;
 }
 
 
-Eigen::VectorXf PlanarQuadrotor::Update(float dt) {
-    return Update(input, dt);
+Eigen::VectorXf PlanarQuadrotor::Update(float dt,float time) {
+    return Update(input, dt,time );
 }
