@@ -86,12 +86,18 @@ int main(int argc, char* args[])
                 {
                     quit = true;
                 }
-                else if (e.type == SDL_MOUSEMOTION)
+                if (e.type == SDL_MOUSEBUTTONDOWN)
                 {
                     SDL_GetMouseState(&x, &y);
+                    
+                    goal_state << (x-640)/10000000.0, (y-360)/10000000.0, 0, 0, 0, 0;
+                    quadrotor.SetGoal(goal_state);
+                }
+                else if (e.type == SDL_MOUSEMOTION)
+                {
+                   SDL_GetMouseState(&x, &y);
                     std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
                 }
-                
             }
 
             SDL_Delay((int) dt * 1000);

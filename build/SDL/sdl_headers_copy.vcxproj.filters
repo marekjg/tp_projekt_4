@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_assert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_atomic.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_audio.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_bits.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_blendmode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_clipboard.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_copying.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_cpuinfo.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_egl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_endian.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_error.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_events.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_filesystem.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_gamecontroller.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_gesture.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_guid.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_haptic.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_hidapi.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_hints.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_joystick.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_keyboard.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_keycode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_loadso.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_locale.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_log.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_main.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_messagebox.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_metal.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_misc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_mouse.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_mutex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_name.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_opengl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_opengl_glext.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_opengles.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_opengles2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_opengles2_gl2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_opengles2_gl2ext.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_opengles2_gl2platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_opengles2_khrplatform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_pixels.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_power.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_quit.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_rect.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_render.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_rwops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_scancode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_sensor.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_shape.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_stdinc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_surface.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_system.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_syswm.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_assert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_common.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_compare.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_crc32.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_font.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_fuzzer.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_harness.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_images.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_log.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_md5.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_memory.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_test_random.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_thread.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_timer.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_touch.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_types.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_version.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_video.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\SDL_vulkan.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\begin_code.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\6ba6b8bcdba81b7a2763ca452b4563cd\close_code.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\CMakeFiles\a01b2cf6250d07c797c8d1ba977ca146\sdl_headers_copy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\SDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL\CMakeFiles\sdl_headers_copy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ED48972C-6B6F-392E-800E-020374498689}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
