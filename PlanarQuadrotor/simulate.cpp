@@ -40,9 +40,9 @@ int main(int argc, char* args[])
 
     /**
      * TODO: Extend simulation
-     * 1. Set goal state of the mouse when clicking left mouse button (transform the coordinates to the quadrotor world! see visualizer TODO list)
+     * 1. Set goal state of the mouse when clicking left mouse button (transform the coordinates to the quadrotor world! see visualizer TODO list) V
      *    [x, y, 0, 0, 0, 0]
-     * 2. Update PlanarQuadrotor from simulation when goal is changed
+     * 2. Update PlanarQuadrotor from simulation when goal is changed V
     */
     Eigen::VectorXf initial_state = Eigen::VectorXf::Zero(6);
     PlanarQuadrotor quadrotor(initial_state);
@@ -74,7 +74,7 @@ int main(int argc, char* args[])
         SDL_Event e;
         bool quit = false;
         float delay;
-        int x, y;
+        int x, y, oldx=0, oldy=0;
         Eigen::VectorXf state = Eigen::VectorXf::Zero(6);
 
         while (!quit)
@@ -89,9 +89,16 @@ int main(int argc, char* args[])
                 if (e.type == SDL_MOUSEBUTTONDOWN)
                 {
                     SDL_GetMouseState(&x, &y);
+                  /*  if(x>oldx)
+                    {
+                        goal_state <<(oldx-640)/10000000.0, (oldy-360)/10000000.0, 200*
+                    }*/
                     
                     goal_state << (x-640)/10000000.0, (y-360)/10000000.0, 0, 0, 0, 0;
+                    oldx=x;
+                    oldy=y;
                     quadrotor.SetGoal(goal_state);
+                    
                 }
                 else if (e.type == SDL_MOUSEMOTION)
                 {

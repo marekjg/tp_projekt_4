@@ -23,6 +23,7 @@ public:
     std::tuple<Eigen::MatrixXf, Eigen::MatrixXf> Linearize();
     void SetInput(Eigen::Vector2f input);
     void DoCalcTimeDerivatives(); // Shamelessly copied from Drake API
+    void COORDINATESCOUT();
     void DoUpdateState(float dt);
     Eigen::VectorXf Update(Eigen::Vector2f &input, float dt);
     Eigen::VectorXf Update(float dt);

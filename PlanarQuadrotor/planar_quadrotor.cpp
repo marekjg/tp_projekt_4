@@ -100,6 +100,11 @@ void PlanarQuadrotor::DoCalcTimeDerivatives() {
     z_dot.block(3, 0, 3, 1) << x_dotdot, y_dotdot, theta_dotdot;
 }
 
+void PlanarQuadrotor::COORDINATESCOUT()
+{
+    
+}
+
 void PlanarQuadrotor::DoUpdateState(float dt) {
     /* Euler integration */
     z += dt * z_dot;
