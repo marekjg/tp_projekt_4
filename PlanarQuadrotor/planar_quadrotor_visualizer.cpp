@@ -24,8 +24,8 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     quadbody.w = 150;
     quadbody.h = 20;
     SDL_RenderFillRect(gRenderer.get(), &quadbody);
-
     
+   
     //SDL_RenderCopyEx(gRenderer.get(), &quadbody, )
    /* SDL_SetRenderDrawColor(gRenderer.get(), 3, 20, 41, 1);
     SDL_Rect leftvert;
