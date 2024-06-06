@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "matplotplusplus/source/matplot/MinSizeRel/matplot.lib"
+			"path" : "matplotplusplus/source/matplot/RelWithDebInfo/matplot.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -113,7 +113,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Zi /O2 /Ob1 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"defines" : 
@@ -201,11 +201,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "nodesoup::@c12dc8f6f399c06ad5fb"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "matplot::@900000785becdfd3715c",

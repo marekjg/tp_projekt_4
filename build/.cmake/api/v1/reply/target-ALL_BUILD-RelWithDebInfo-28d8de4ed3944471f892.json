@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"matplotplusplus/CMakeLists.txt"
+			"SDL2_gfx/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,22 +17,19 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "SDL2_gfx::@2c7becf580f3cc8d05f2"
+		},
+		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "nodesoup::@c12dc8f6f399c06ad5fb"
-		},
-		{
-			"id" : "matplot::@900000785becdfd3715c"
 		}
 	],
-	"id" : "ALL_BUILD::@da9a3d50974743c8a62b",
+	"id" : "ALL_BUILD::@2c7becf580f3cc8d05f2",
 	"isGeneratorProvided" : true,
 	"name" : "ALL_BUILD",
 	"paths" : 
 	{
-		"build" : "matplotplusplus",
-		"source" : "matplotplusplus"
+		"build" : "SDL2_gfx",
+		"source" : "SDL2_gfx"
 	},
 	"sources" : [],
 	"type" : "UTILITY"
