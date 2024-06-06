@@ -56,11 +56,16 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     SDL_Point rotationCenter = {q_x,q_y};
     SDL_RenderCopyEx(gRenderer.get(),QuadrotorTexture, nullptr, &quadbody, q_theta*-80000, &rotationCenter, SDL_FLIP_NONE);
   //  SDL_RenderPresent(gRenderer.get());
-
+    SDL_SetRenderDrawColor(gRenderer.get(),0,0,0,0);
+    filledCircleColor(gRenderer.get(), mousex, mousey, 3, 0xFF0000FF);
     SDL_RenderCopyEx(gRenderer.get(),QuadrotorTexture, nullptr, &leftvert, q_theta*-80000, &rotationCenter, SDL_FLIP_NONE);
     SDL_RenderCopyEx(gRenderer.get(),QuadrotorTexture, nullptr, &rightvert, q_theta*-80000, &rotationCenter, SDL_FLIP_NONE);
     SDL_RenderCopyEx(gRenderer.get(),QuadrotorTexture, nullptr, &leftBlade, q_theta*-80000, &rotationCenter, SDL_FLIP_NONE);
     SDL_RenderCopyEx(gRenderer.get(),QuadrotorTexture, nullptr, &rightBlade, q_theta*-80000, &rotationCenter, SDL_FLIP_NONE);
+    SDL_SetRenderDrawColor(gRenderer.get(),0,0,0,0);
+    filledCircleColor(gRenderer.get(), mousex, mousey, 3, 0xFF0000FF);
+    //std::cout<<"mousex= "<<mousex<<" mousey= "<<mousey;
+
     
     
    

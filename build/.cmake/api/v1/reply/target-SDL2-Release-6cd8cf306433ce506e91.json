@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SDL/Debug/SDL2d.dll"
+			"path" : "SDL/Release/SDL2.dll"
 		},
 		{
-			"path" : "SDL/Debug/SDL2d.lib"
+			"path" : "SDL/Release/SDL2.lib"
 		},
 		{
-			"path" : "SDL/Debug/SDL2d.pdb"
+			"path" : "SDL/Release/SDL2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -75,7 +75,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS   -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=24 -DSDL_BUILD_MICRO_VERSION=2 /Zi /Ob0 /Od  -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS   -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=24 -DSDL_BUILD_MICRO_VERSION=2 /O2 /Ob2 /DNDEBUG -MD"
 				},
 				{
 					"backtrace" : 4,
@@ -116,7 +116,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-debug"
+					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-release"
 				},
 				{
 					"backtrace" : 5,
@@ -314,7 +314,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS   -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=24 -DSDL_BUILD_MICRO_VERSION=2 /Zi /Ob0 /Od  -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS   -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=24 -DSDL_BUILD_MICRO_VERSION=2 /O2 /Ob2 /DNDEBUG -MD"
 				},
 				{
 					"backtrace" : 4,
@@ -358,7 +358,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-debug"
+					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-release"
 				},
 				{
 					"backtrace" : 5,
@@ -375,7 +375,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DWIN32 -D_DEBUG"
+					"fragment" : "-DWIN32"
 				}
 			],
 			"defines" : 
@@ -408,7 +408,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-debug"
+					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-release"
 				},
 				{
 					"backtrace" : 5,
@@ -425,11 +425,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "sdl_headers_copy::@e7c329919722962a2ad4"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "SDL2::@e7c329919722962a2ad4",
@@ -438,7 +438,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /NODEFAULTLIB",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /NODEFAULTLIB",
 				"role" : "flags"
 			},
 			{
@@ -509,7 +509,7 @@
 		"language" : "C"
 	},
 	"name" : "SDL2",
-	"nameOnDisk" : "SDL2d.dll",
+	"nameOnDisk" : "SDL2.dll",
 	"paths" : 
 	{
 		"build" : "SDL",

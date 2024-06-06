@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SDL/Debug/SDL2-staticd.lib"
+			"path" : "SDL/RelWithDebInfo/SDL2-static.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -80,7 +80,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS   -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=24 -DSDL_BUILD_MICRO_VERSION=2 /Zi /Ob0 /Od  -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS   -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=24 -DSDL_BUILD_MICRO_VERSION=2 /Zi /O2 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"backtrace" : 3,
@@ -122,7 +122,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-debug"
+					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-relwithdebinfo"
 				},
 				{
 					"backtrace" : 4,
@@ -320,7 +320,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS   -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=24 -DSDL_BUILD_MICRO_VERSION=2 /Zi /Ob0 /Od  -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS   -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MINOR_VERSION=24 -DSDL_BUILD_MICRO_VERSION=2 /Zi /O2 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"backtrace" : 3,
@@ -365,7 +365,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-debug"
+					"path" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL/include-config-relwithdebinfo"
 				},
 				{
 					"backtrace" : 4,
@@ -382,16 +382,16 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "sdl_headers_copy::@e7c329919722962a2ad4"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "SDL2-static::@e7c329919722962a2ad4",
 	"name" : "SDL2-static",
-	"nameOnDisk" : "SDL2-staticd.lib",
+	"nameOnDisk" : "SDL2-static.lib",
 	"paths" : 
 	{
 		"build" : "SDL",

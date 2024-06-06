@@ -56,7 +56,7 @@ int main(int argc, char* args[])
     goal_state << 0, 0, 0, 0, 0, 0;
     quadrotor.SetGoal(goal_state);
     /* Timestep for the simulation */
-    const float dt = 0.0005;
+    const float dt = 0.001;
     Eigen::MatrixXf K = LQR(quadrotor, dt);
     Eigen::Vector2f input = Eigen::Vector2f::Zero(2);
 
@@ -95,9 +95,12 @@ int main(int argc, char* args[])
                     }*/
                     
                     goal_state << (x-640)/10000000.0, (y-360)/10000000.0, 0, 0, 0, 0;
-                    oldx=x;
-                    oldy=y;
+                    //oldx=x;
+                   // oldy=y;
                     quadrotor.SetGoal(goal_state);
+                    quadrotor_visualizer.mousex=x;
+                    quadrotor_visualizer.mousey=y;
+                    
                     
                 }
                 else if (e.type == SDL_MOUSEMOTION)

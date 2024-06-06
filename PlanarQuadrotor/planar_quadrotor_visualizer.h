@@ -14,4 +14,6 @@ private:
 public:
     PlanarQuadrotorVisualizer(PlanarQuadrotor *quadrotor_ptr);
     void render(std::shared_ptr<SDL_Renderer> &gRenderer);
+    float mousex=10000000;
+    float mousey=10000000;
 };
