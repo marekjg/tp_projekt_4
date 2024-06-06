@@ -4,6 +4,7 @@
 
 #include <SDL.h>
 #include <SDL2_gfx/SDL2_gfxPrimitives.h>
+//#include <SDL_image.h>
 
 #include "planar_quadrotor.h"
 

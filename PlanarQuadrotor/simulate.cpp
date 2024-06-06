@@ -56,7 +56,7 @@ int main(int argc, char* args[])
     goal_state << 0, 0, 0, 0, 0, 0;
     quadrotor.SetGoal(goal_state);
     /* Timestep for the simulation */
-    const float dt = 0.001;
+    const float dt = 0.0005;
     Eigen::MatrixXf K = LQR(quadrotor, dt);
     Eigen::Vector2f input = Eigen::Vector2f::Zero(2);
 
