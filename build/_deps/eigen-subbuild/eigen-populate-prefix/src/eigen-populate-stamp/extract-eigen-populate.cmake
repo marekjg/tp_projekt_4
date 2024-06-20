@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-3.4.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/_deps/eigen-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/arekl/pp4/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-3.4.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Users/arekl/pp4/tp_projekt_4/build/_deps/eigen-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

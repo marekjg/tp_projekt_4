@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
 # file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 3.29.3)
+cmake_minimum_required(VERSION 3.28.5)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -20,8 +20,8 @@ project(eigen-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(eigen-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "FALSE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz"
-                    SOURCE_DIR          "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/_deps/eigen-src"
-                    BINARY_DIR          "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/_deps/eigen-build"
+                    SOURCE_DIR          "C:/Users/arekl/pp4/tp_projekt_4/build/_deps/eigen-src"
+                    BINARY_DIR          "C:/Users/arekl/pp4/tp_projekt_4/build/_deps/eigen-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

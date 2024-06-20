@@ -1,6 +1,6 @@
-^C:\USERS\TYMON\DOCUMENTS\GITHUB\TP_PROJEKT_4\SDL2_GFX\CMAKELISTS.TXT
+^C:\USERS\AREKL\PP4\TP_PROJEKT_4\SDL2_GFX\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tymon/Documents/GitHub/tp_projekt_4 -BC:/Users/tymon/Documents/GitHub/tp_projekt_4/build --check-stamp-file C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/arekl/pp4/tp_projekt_4 -BC:/Users/arekl/pp4/tp_projekt_4/build --check-stamp-file C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

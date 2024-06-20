@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild
+# Install script for directory: C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/sdl2-populate")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sdl2-populate")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

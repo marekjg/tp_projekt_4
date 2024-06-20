@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/tymon/Documents/GitHub/tp_projekt_4/SDL2_gfx
+# Install script for directory: C:/Users/arekl/pp4/tp_projekt_4/SDL2_gfx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Projekt3")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Projekt3")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

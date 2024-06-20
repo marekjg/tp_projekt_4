@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\SDL2_gfx\SDL2_framerate.c">
+    <ClCompile Include="C:\Users\arekl\pp4\tp_projekt_4\SDL2_gfx\SDL2_framerate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\SDL2_gfx\SDL2_gfxPrimitives.c">
+    <ClCompile Include="C:\Users\arekl\pp4\tp_projekt_4\SDL2_gfx\SDL2_gfxPrimitives.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\SDL2_gfx\SDL2_imageFilter.c">
+    <ClCompile Include="C:\Users\arekl\pp4\tp_projekt_4\SDL2_gfx\SDL2_imageFilter.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\SDL2_gfx\SDL2_rotozoom.c">
+    <ClCompile Include="C:\Users\arekl\pp4\tp_projekt_4\SDL2_gfx\SDL2_rotozoom.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\SDL2_gfx\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\SDL2_gfx\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A6BEE3EB-CA81-3110-B6F8-B3A1C116F86E}</UniqueIdentifier>
+      <UniqueIdentifier>{8A105236-194E-3B9A-832A-6D96F2F450DB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

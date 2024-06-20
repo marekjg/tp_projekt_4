@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-download.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-update.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-patch.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-configure.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-build.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-install.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-test.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\126275c623b663235577bba021312ae5\sdl2-populate-complete.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\6e1dedb3f6e134972c081289e8fab998\sdl2-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\68a7938985d898e262333cadb135210b\sdl2-populate.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\9b32d06d6f96bf9e120510acbdc88698\sdl2-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate" />
+    <None Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{FF4CED34-20A5-39C9-AC48-A0978CA16250}</UniqueIdentifier>
+      <UniqueIdentifier>{9B49729A-8963-346F-8004-91765EA197E8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

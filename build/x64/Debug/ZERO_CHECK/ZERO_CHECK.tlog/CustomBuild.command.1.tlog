@@ -1,6 +1,6 @@
-^C:\USERS\TYMON\DOCUMENTS\GITHUB\TP_PROJEKT_4\BUILD\CMAKEFILES\EAEC38DE0E139781F3C25922232F1341\GENERATE.STAMP.RULE
+^C:\USERS\AREKL\PP4\TP_PROJEKT_4\BUILD\CMAKEFILES\BDDC0271FBFE9D1BCF221006C117EC6E\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tymon/Documents/GitHub/tp_projekt_4 -BC:/Users/tymon/Documents/GitHub/tp_projekt_4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/Projekt3.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/arekl/pp4/tp_projekt_4 -BC:/Users/arekl/pp4/tp_projekt_4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/arekl/pp4/tp_projekt_4/build/Projekt3.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

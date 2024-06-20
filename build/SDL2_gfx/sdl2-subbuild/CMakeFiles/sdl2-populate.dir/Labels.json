@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/68a7938985d898e262333cadb135210b/sdl2-populate.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/9b32d06d6f96bf9e120510acbdc88698/sdl2-populate.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/126275c623b663235577bba021312ae5/sdl2-populate-complete.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/6e1dedb3f6e134972c081289e8fab998/sdl2-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ec733a8c478af10c4dd35d2c7ce5965d/sdl2-populate-build.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/53f02ac8f09ab52bebbfbb738cd6de56/sdl2-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ec733a8c478af10c4dd35d2c7ce5965d/sdl2-populate-configure.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/53f02ac8f09ab52bebbfbb738cd6de56/sdl2-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ec733a8c478af10c4dd35d2c7ce5965d/sdl2-populate-download.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/53f02ac8f09ab52bebbfbb738cd6de56/sdl2-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ec733a8c478af10c4dd35d2c7ce5965d/sdl2-populate-install.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/53f02ac8f09ab52bebbfbb738cd6de56/sdl2-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ec733a8c478af10c4dd35d2c7ce5965d/sdl2-populate-mkdir.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/53f02ac8f09ab52bebbfbb738cd6de56/sdl2-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ec733a8c478af10c4dd35d2c7ce5965d/sdl2-populate-patch.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/53f02ac8f09ab52bebbfbb738cd6de56/sdl2-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ec733a8c478af10c4dd35d2c7ce5965d/sdl2-populate-test.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/53f02ac8f09ab52bebbfbb738cd6de56/sdl2-populate-test.rule"
 		},
 		{
-			"file" : "C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ec733a8c478af10c4dd35d2c7ce5965d/sdl2-populate-update.rule"
+			"file" : "C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/53f02ac8f09ab52bebbfbb738cd6de56/sdl2-populate-update.rule"
 		}
 	],
 	"target" : 

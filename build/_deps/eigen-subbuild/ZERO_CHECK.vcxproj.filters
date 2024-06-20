@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\_deps\eigen-subbuild\CMakeFiles\e5d03abe635b44c9af44c3e6d8277f41\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\_deps\eigen-subbuild\CMakeFiles\7a1d8e79b503cc1c2c5b5c4c3a48ff43\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{E315FB72-ACB2-389D-9593-C50A667381B8}</UniqueIdentifier>
+      <UniqueIdentifier>{B7CB50E3-D130-347D-A7FF-B29332957B9E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

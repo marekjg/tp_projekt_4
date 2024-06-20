@@ -11,6 +11,8 @@
 class PlanarQuadrotorVisualizer {
 private:
     PlanarQuadrotor *quadrotor_ptr;
+    float leftBladeAngle; 
+    float rightBladeAngle;
 public:
     PlanarQuadrotorVisualizer(PlanarQuadrotor *quadrotor_ptr);
     void render(std::shared_ptr<SDL_Renderer> &gRenderer);

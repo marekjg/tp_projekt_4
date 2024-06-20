@@ -10,9 +10,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{79956E3D-F5AE-350C-89EA-186AD9017680}</ProjectGuid>
+    <ProjectGuid>{9380EA69-1BCA-3CDD-90EF-5040624C1A2C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>sdl2-populate</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -45,13 +45,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/tmp/sdl2-populate-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/tmp/sdl2-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -60,25 +60,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-download.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx
+cd C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/download-sdl2-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/download-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/verify-sdl2-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/verify-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/extract-sdl2-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/extract-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -86,18 +86,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\download-sdl2-populate.cmake;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-urlinfo.txt;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\download-sdl2-populate.cmake;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-urlinfo.txt;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-update.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-update
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -105,18 +105,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-update-info.txt;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-update-info.txt;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-patch.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,23 +124,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-patch-info.txt;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-patch-info.txt;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-configure.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-build
+cd C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -148,23 +148,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-cfgcmd.txt;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-cfgcmd.txt;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-build.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-build
+cd C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -172,23 +172,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-install.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-build
+cd C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,23 +196,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ec733a8c478af10c4dd35d2c7ce5965d\sdl2-populate-test.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\53f02ac8f09ab52bebbfbb738cd6de56\sdl2-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-build
+cd C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,21 +220,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\126275c623b663235577bba021312ae5\sdl2-populate-complete.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\6e1dedb3f6e134972c081289e8fab998\sdl2-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug/sdl2-populate-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug/sdl2-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,13 +242,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\68a7938985d898e262333cadb135210b\sdl2-populate.rule">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\9b32d06d6f96bf9e120510acbdc88698\sdl2-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -258,18 +258,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild --check-stamp-file C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild --check-stamp-file C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,18 +277,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\3.28.5\CMakeSystem.cmake;C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate">
+    <None Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\tymon\Documents\GitHub\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{F09A35E9-5823-3E46-B30B-74F8A1B93F13}</Project>
+    <ProjectReference Include="C:\Users\arekl\pp4\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{7B9AD1D2-0C11-391A-8E8A-85BEBC12865B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,6 +1,6 @@
-^C:\USERS\TYMON\DOCUMENTS\GITHUB\TP_PROJEKT_4\BUILD\SDL2_GFX\SDL2-SUBBUILD\CMAKEFILES\68A7938985D898E262333CADB135210B\GENERATE.STAMP.RULE
+^C:\USERS\AREKL\PP4\TP_PROJEKT_4\BUILD\SDL2_GFX\SDL2-SUBBUILD\CMAKEFILES\9B32D06D6F96BF9E120510ACBDC88698\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tymon/Documents/GitHub/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/arekl/pp4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
