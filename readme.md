@@ -1,39 +1,28 @@
-[![SFML logo](https://www.sfml-dev.org/images/logo.png)](https://www.sfml-dev.org)
+# Techniki Programowania - Projekt 4
+Projekt polega na wczytaniu, przetworzeniu oraz zwizualizowaniu sygnałów występujących w systemach robotycznych. Projekt będzie realizowany z wykorzystaniem programu CMake.
 
-# SFML — Simple and Fast Multimedia Library
 
-SFML is a simple, fast, cross-platform and object-oriented multimedia API. It provides access to windowing, graphics, audio and network. It is written in C++, and has bindings for various languages such as C, .Net, Ruby, Python.
+# Korzystanie z szablonu
+## Pobranie projektu
+W celu pobrania zależności (biblioteki Eigen oraz Matplot++), nalezy zaciągnąć repozytorium wraz z submodułami korzystając z flagi `--recursive`
 
-## Authors
+`git clone --recursive https://github.com/marekjg/tp_projekt_4`
 
-  - Laurent Gomila — main developer (laurent@sfml-dev.org)
-  - Marco Antognini — OS X developer (hiura@sfml-dev.org)
-  - Jonathan De Wachter — Android developer (dewachter.jonathan@gmail.com)
-  - Jan Haller (bromeon@sfml-dev.org)
-  - Stefan Schindler (tank@sfml-dev.org)
-  - Lukas Dürrenberger (eXpl0it3r@sfml-dev.org)
-  - binary1248 (binary1248@hotmail.com)
-  - Artur Moreira (artturmoreira@gmail.com)
-  - Mario Liebisch (mario@sfml-dev.org)
-  - And many other members of the SFML community
+## Budowanie projektu
+Korzystając z Visual Code i dodatku CMake tools, można buować i uruchamiać program z dolnego paska (sposób sprawdzony na windowsie). Można też z linii poleceń:
 
-## Download
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
 
-You can get the latest official release on [SFML's website](https://www.sfml-dev.org/download.php). You can also get the current development version from the [Git repository](https://github.com/SFML/SFML).
+## Uruchomienie aplikacji
+Tak jak budowanie, można wykorzystać CMake tools w Visual Studio Code albo znaleźć plik wykonywalny (pod nazwą z `add_executable` w pliku `CMakeLists.txt`).
 
-## Install
-
-Follow the instructions of the [tutorials](https://www.sfml-dev.org/tutorials/), there is one for each platform/compiler that SFML supports.
-
-## Learn
-
-There are several places to learn SFML:
-
-  * The [official tutorials](https://www.sfml-dev.org/tutorials/)
-  * The [online API documentation](https://www.sfml-dev.org/documentation/)
-  * The [community wiki](https://github.com/SFML/SFML/wiki/)
-  * The [community forum](https://en.sfml-dev.org/forums/) ([French](https://fr.sfml-dev.org/forums/))
-
-## Contribute
-
-SFML is an open-source project, and it needs your help to go on growing and improving. If you want to get involved and suggest some additional features, file a bug report or submit a patch, please have a look at the [contribution guidelines](https://www.sfml-dev.org/contribute.php).
+# Zadanie projektowe
+1. Uzupełnić kod zgodnie z polami TODO w plikach `PlanarQuadrotor`
+2. Dodać bibliotekę do odtwarzania dźwięku i odtwarzać dźwięk który narasta wraz z wiekszym sterowaniem (input w klasie PlanarQuadrotor)
+3. Dopasowanie macierzy Q i R w celu polepszenia dokładności sterowania
+4. Optymalizacja macierzy Q/R w celu minimalizacji czasu przelotu
